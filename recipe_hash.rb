@@ -86,3 +86,5 @@ def number_ingredients(perfect_10_recipe)
     puts "There are #{ingredients}"
 end
 end
+
+number_ingredients(perfect_10_recipe)
