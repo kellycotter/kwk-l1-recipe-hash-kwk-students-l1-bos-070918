@@ -83,6 +83,6 @@ amounts(perfect_10_recipe)
 #6: Return the number of ingredients in the `perfect_10_recipe` hash.
 def number_ingredients(perfect_10_recipe)
   perfect_10_recipe.each.soze do |ingredients|
-    puts "There are #{ingredients}"
+    puts "There are #{ingredients.size}"
 end
 end
